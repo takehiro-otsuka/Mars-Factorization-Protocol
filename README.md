@@ -144,3 +144,25 @@ The system maintains a **Safety-First Feedback Loop**:
 - **Goal:** Transform waste into two output streams:
   1. **Sanitized Matter** (Safe ash for construction).
   2. **Captured Carbon/Compute** (Solidified CO2 & Processed Data).
+
+### 4.2 Urban Thermal Integration (Sewage System)
+
+We integrate the sewage system as a secondary thermal node to stabilize the Data Center and the Carbon Capture process.
+
+#### 1. Heat Sink Integration (Sewage Heat)
+*   **Source:** Untreated sewage (approx. 15–20°C).
+*   **Role:** Acts as an infinite heat sink for Data Center server cooling.
+*   **Thermal Logic:**
+    $$ Q_{cooling\_load} = \dot{m}_{sewage} \cdot c_p \cdot \Delta T $$
+    By using sewage as the primary coolant loop, we reduce chiller electricity consumption (PUE improvement) by minimizing the temperature delta ($T_{chip} - T_{sewage}$).
+
+#### 2. Thermal Energy Recovery (Sludge Combustion)
+*   **Source:** Dewatered sludge.
+*   **Role:** Thermal fuel for carbon capture.
+*   **Thermal Logic:**
+    While sewage sludge contains nutrients, **this protocol strictly ignores material recovery.** 
+    The sludge is routed exclusively to the high-temperature incinerator to maximize the thermal output ($Q_{sludge}$) for solvent regeneration in the Carbon Capture loop.
+
+#### Boundary Condition: Thermal-Only Strategy
+*   This protocol excludes nutrient extraction, chemical conversion, or fertilizer production.
+*   All outputs from the sewage process, excluding recovered thermal energy, are treated as standard residual waste.
