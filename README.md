@@ -93,3 +93,33 @@ This allows the DC to become a **Mobile Sublimation Engine**. It constantly glid
 As it processes computational tasks assigned by Earth via GVMO, it leaves behind a trail of released greenhouse gases—thickening the Martian atmosphere while keeping its processors optimally cooled.
 
 **Compute generates heat. Heat generates lift and propulsion. Movement generates atmospheric density.**
+
+## Protocol 4: The Entropy-to-Matter Hub
+
+Integrating municipal waste incineration with Data Center compute loads to close the thermodynamic loop.
+
+### 1. Thermal Balance Equation
+To achieve CO2 capture ($m_{CO2}$), the total heat demand ($Q_{req}$) must be satisfied by the synchronized supply of high-grade waste heat ($Q_{waste}$) and upgraded low-grade DC waste heat ($Q_{dc\_boosted}$).
+
+$$ Q_{req} = m_{CO2} \cdot H_{regeneration} + E_{compression} $$
+
+The supply is defined by:
+$$ Q_{supply} = (\eta_{incin} \cdot Q_{waste}) + (\text{COP}_{hp} \cdot W_{dc}) $$
+
+Where:
+*   $H_{regeneration}$: Enthalpy required for solvent regeneration.
+*   $W_{dc}$: Electrical work diverted to heat-upgrading/chiller cycles.
+*   $\text{COP}_{hp}$: Coefficient of Performance of the heat pump.
+
+### 2. The Feedback Loop
+The AI Orchestrator manages the system via the **Computation-to-Capture Ratio (CCR)**:
+
+$$ CCR = \frac{P_{dc}}{m_{CO2}} $$
+
+*   If $Q_{supply} < Q_{req}$: Increase DC compute load to boost $W_{dc}$ (higher chiller output).
+*   If $Q_{supply} > Q_{req}$: Throttle $P_{dc}$ or export thermal energy to district heating.
+
+### 3. Objective
+Maximize CO2-to-Solid conversion without compromising server thermal stability ($T_{chip} < T_{limit}$). 
+**Waste Incinerator = Carbon Concentrator.**
+**Data Center = Thermal Exergy Booster.**
