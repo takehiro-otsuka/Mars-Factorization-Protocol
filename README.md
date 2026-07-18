@@ -68,3 +68,28 @@ This architecture establishes a perfect, reversible thermodynamic symmetry betwe
 By shifting the computational load (Earth/Mars Ratio) via the GVMO algorithm, we are not just routing data—we are directly manipulating the CO2 phase transitions on two worlds simultaneously. 
 
 **Information (Flops) and Heat (Joules) become interchangeable tools for planetary engineering.**
+
+# Protocol 3: The Sublimation Hover-DC (Mobile Architecture)
+
+Building upon the thermodynamic foundations of Protocol 2, a localized, stationary Data Center on Mars faces a critical inefficiency: once the dry ice directly beneath it is fully sublimated, it loses its primary coolant and terraforming target. 
+
+Protocol 3 introduces **Mobility** by hacking the Martian gravitational constant ($g \approx 3.72 \text{ m/s}^2$, 38% of Earth's gravity).
+
+## 1. The Gravity-Mass Advantage
+A structure that cannot be moved on Earth becomes highly mobile on Mars. The required lift force to offset the DC's mass ($m$) is reduced by 62%.
+$$ F_{lift} = m \cdot g_{Mars} $$
+
+## 2. Sublimation Hovering (The Leidenfrost Drive)
+Instead of static radiators, the massive exhaust heat ($Q_{compute}$) from the 28nm clusters is directed downward through the DC's basal chassis directly onto the Martian polar ice cap. 
+The rapid phase transition of solid CO2 to gas generates an intense, localized high-pressure gas cushion beneath the DC. 
+
+$$ P_{sublimation} = \frac{m \cdot g_{Mars}}{A} $$
+*(Where $A$ is the basal footprint area of the DC)*
+
+Once $P_{sublimation}$ exceeds the gravitational downward force, the entire DC achieves a near-zero friction state, akin to a massive air-hockey puck hovering on its own exhaust.
+
+## 3. The Terraforming Rover
+This allows the DC to become a **Mobile Sublimation Engine**. It constantly glides across the polar caps, seeking fresh solid CO2 deposits. 
+As it processes computational tasks assigned by Earth via GVMO, it leaves behind a trail of released greenhouse gases—thickening the Martian atmosphere while keeping its processors optimally cooled.
+
+**Compute generates heat. Heat generates lift and propulsion. Movement generates atmospheric density.**
